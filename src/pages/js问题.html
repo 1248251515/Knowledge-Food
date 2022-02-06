@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>
+    assad
+  </div>
+  <div>
+    assad
+  </div>
+  <div>
+    assad
+  </div>
+  <div>
+    assad
+  </div>
+  <script>
+    //1.解构赋值的数据是赋值还是拷贝?
+    //对象有待考证
+    let ss = {
+      str:'sdsad',
+      obj:{
+        str:'asd'
+      },
+      arr:['str',12],
+    };
+    let {str,obj,arr} = ss;
+    str = 'gauke1'
+    //console.log(ss,str);
+    //数组有待考证 和上面是一样的
+    let Array1 = ['asd',12,21];
+    //上面的例子说明是赋值
+
+    //2.concat合并数组改变后会不会使原数组改变?
+    //合并后的数组是完全独立的
+    let conArr = [].concat(Array1)
+    Array1[1] = 'as'
+    let Domarr = Array.from(document.querySelectorAll('div'))
+    console.log(Domarr);
+    Array.from(document.querySelectorAll('div')).forEach((value,index)=>{
+      value.style.fontSize = 100 + 'px'
+    })
+    //console.log(conArr,Array);
+  </script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+/*用户下滑栏样式*/
+.userlit{
+  width: 100%;
+  background-color: #1b3e5e;
+  text-align: center;
+  padding: 20px 0;
+  color: #ffffff;
+}
+.userlit .userN{
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 1000;
+  letter-spacing:2px;
+  color: white;
+}
+.userlit .gxtitle{
+  text-align: center;
+  width: 100%;
+  padding: 40px 10px;
+  color: rgb(235, 235, 185);
+  font-size: 15px;
+}
+.tsss{
+  color: white;
+}
+.ant-layout-header{
+  margin-bottom: 6px;
+  min-width: 1440px;
+}
+.contentS{
+  width: 1440px;
+  margin: 0 auto;
+}
+.ant-layout-sider-children{
+  box-shadow: 0px 0px 4px 0 rgb(197 197 197);
+}
+/*轮播图类*/
+.Carouse{
+  width: 100%;
+}
+.CarTit{
+  width: 40%;
+}
+.CarBtn{
+  flex: 1;
+  background-color: wheat;
+  margin-bottom: 10px;
+}
+/*轮播图右边框选项*/
+.siderCarBtn{
+  display: flex;
+  background-color: rgb(255, 243, 243);
+}
+.contentStyle{
+  height: 540px;
+  width: 100%;
+  color: #ffffff;
+  line-height: 540px;
+  text-align: center;
+}
+.ant-layout-sider{
+  background: white !important;
+}
+/*任务框样式*/
+.exp{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 4px;
+}
+.exp >.rwspan{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  min-height: 40px;
+  align-items: center;
+  line-height: 40px;
+  margin-bottom: 4px;
+  color: #1b3e5e;
+  transition: .2s;
+}
+.yes{
+  background-color:#d2e9ff;
+}
+.no{
+  background-color:#ffedd2 ;
+}
+.exp >.rwspan >.Taskspan{
+  flex: 3;
+  font-size: 16px;
+  padding-left: 20px;
+}
+.exp >.rwspan >.YNBtn{
+  flex: 2;
+  flex-direction: row;
+}
+.Caroutse{
+  margin-bottom: 20px;
+}
+/*日历样式*/
+.site-calendar-customize-header-wrapper {
+  width: 100%;
+  border: 1px solid #f0f0f0;
+  border-radius: 2px;
+}
+/*热门内容块样式*/
+.HotCont{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+.HotCont >.HotTitle{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  padding:0 20px ;
+}
+.HotCont >.HotBlock{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  height: 525px;
+  justify-content: space-between;
+}
+.HotCont>.HotTitle>.title{
+  color: #1b3e5e;
+}
+.HotCont>.HotTitle>.HotBtn{
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+  border: 1px solid #eaecf1;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .5s;
+}
+.HotBtn:hover{
+  background:#001529;
+  color: white;
+}
+/*900 5  180*/
+/*底层标签最小宽高*/
+.HtmlMinWH{
+  height: auto;
+  width: auto;
+  min-width:1440!important ;
+}
+/*视频分类样式*/
+.Video-root-element{
+  background-color: #ffffff;
+}
+.Video-root-element >.Video-Category{
+  background-color: rgb(255, 255, 255);
+  height: 230px;
+  width: 800px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow:0px 0px 7px 3px  #ededed;
+}
+.Video-root-element >.Video-Category>.video-Category-language{
+
+}
+.Video-root-element >.Video-Category>.video-Category-category{
+
+}
+.Radioin{
+  margin-right: 14px !important;
+}
+.resetborder{
+  border-bottom: 1px solid #f0f2f5;
+  padding: 10px 0px;
+}
+.Video-root-element>.Video-center{
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+}
+.Video-center>.video-List{
+  padding-left: 20px;
+}
+.Video-center>.video-List>.video-Item{
+  margin-right:20px;
+  margin-bottom:20px;
+  float: left;
+} 

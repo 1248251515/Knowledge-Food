@@ -1,0 +1,54 @@
+.Login{
+  width: 100%;
+  height: 100%;
+  background-image:url('../imgs/Login_backimg.jpg');
+  background-size: cover;
+  padding: 200px 0;
+}
+.Login .LoginHeader{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color:darkslategray;
+}
+.Login h1{
+  font-size: 30px;
+  color: white;
+  margin: 0;
+}
+.Login .Login_box{
+  width: 400px;
+  padding:1px 0;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+  margin: 0px auto;
+}
+.Login .Login_box{
+  text-align: center;
+}
+.Login .Login_box h1{
+  color: black;
+  margin: 20px;
+}
+.Login .Login_box .Login_form{
+  width: 80%;
+  margin: 0 auto;
+}
+.flex_center{
+  justify-content: center;  
+}
+.Form_Btn{
+  width: 100%;
+}
+.choose_box{
+  background-color: rgb(255, 255, 255);
+}
+.choose_box .check{
+  float: left;
+  margin: 0;
+}
+
+.choose_box .register{
+  float: right;
+}

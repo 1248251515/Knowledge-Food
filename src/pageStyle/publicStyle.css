@@ -1,0 +1,25 @@
+.ant-layout .ant-layout-header .logo{
+  float: left;
+  height: 30px;
+  margin: 16px 24px 16px 0;
+  font-size: 16px;
+  text-align: center;
+  line-height: 30px;
+  color: rgb(232, 232, 232);
+}
+
+.site-layout-background {
+  background: #fff;
+}
+.goOut{
+  width: 100%;
+  height: 1040px;
+}
+.goOut button{
+  margin: 100px auto;
+}
+.Logo{
+  height: 30px;
+  margin-right: 4px;
+  border-radius: 2.3px;
+}
